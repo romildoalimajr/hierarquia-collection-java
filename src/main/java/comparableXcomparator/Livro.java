@@ -34,6 +34,12 @@ class Livro implements Comparable<Livro>{
     public int getAno(){
         return ano;
     }
+
+    @Override
+    public int compareTo(Livro o) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'compareTo'");
+    }
 }
 
 // Classse para comparar livro por autor
